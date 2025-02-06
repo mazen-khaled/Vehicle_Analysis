@@ -14,7 +14,7 @@
 ---
 
 ## Overview
-This project demonstrates the analysis of vehicle data using Power BI to uncover insights such as top profit makers, factors influencing vehicle prices, and forecast trends. The project includes interactive dashboards and visualizations, enabling users to explore data comprehensively.
+This project demonstrates the analysis of vehicle data using Power BI to uncover insights such as top profit makers, factors influencing vehicle prices, and forecast trend for Each Maker. The project includes interactive dashboards and visualizations, enabling users to explore data comprehensively.
 
 ---
 
@@ -22,20 +22,20 @@ This project demonstrates the analysis of vehicle data using Power BI to uncover
 
 ### 1. **Top Profit Makers**
 - Identifies the top 5 car makers generating the highest profits.
-- Visualization: Bar chart displaying profit distribution among makers.
+- Visualization: Bar chart displaying profit distribution among makers. (Not Interactive)
 
 ### 2. **Car Price Trends Over Years**
-- Tracks changes in vehicle prices (maximum, average, and minimum) from 2010 to 2025.
+- Tracks changes in vehicle prices (maximum, average, and minimum) from 2005 to 2022.
 - Visualization: Line chart highlighting price fluctuations over time.
 
 ### 3. **Vehicle Concentration Map**
 - Displays regions with the highest concentration of vehicles.
-- Visualization: Geospatial heatmap.
+- Visualization: Map.
 
 ### 4. **Summary Metrics**
-- **Maximum Vehicle Value:** $2.4M
-- **Average Vehicle Value:** $638.62K
-- **Minimum Vehicle Value:** $130K
+- **Maximum Vehicle Value For A Certain Maker:** $2.4M
+- **Average Vehicle Value For A Certain Maker:** $638.62K
+- **Minimum Vehicle Value For A Certain Maker:** $130K
 
 ### 5. **Effect of Power and Torque on Price**
 - Analyzes the correlation between vehicle power, torque, and pricing.
@@ -59,7 +59,6 @@ This project demonstrates the analysis of vehicle data using Power BI to uncover
 ## Tools & Technologies
 - **Power BI:** For creating interactive dashboards and data visualizations.
 - **Data Sources:** Vehicle datasets containing attributes such as price, engine specifications, mileage, and location.
-- **Microsoft Bing Maps:** Integrated for geospatial visualizations.
 
 ---
 
@@ -88,10 +87,10 @@ This project demonstrates the analysis of vehicle data using Power BI to uncover
 ```
 root
 |
-|-- data/             # Raw and processed data files
-|-- screenshots/      # Images of Power BI dashboards
-|-- project.pbix      # Power BI project file
-|-- README.md         # Project documentation
+|-- data/                     # Raw and processed data files
+|-- screenshots/              # Images of Power BI dashboards
+|-- Vehicle_Anlysis.pbix      # Power BI project file
+|-- README.md                 # Project documentation
 ```
 
 ## Contributor
